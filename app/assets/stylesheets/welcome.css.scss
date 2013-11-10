@@ -2,3 +2,23 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "font-awesome";  //これを追加
+
+h1 {
+	font-size: 40px;
+	color: #222222;
+}
+
+h2.subtitle {
+	margin-top: 20px;
+	color: #222222;
+}
+
+div.icon {
+	width: 300px;
+	float: left;
+	text-align:center;
+	i {
+		color: #222222;
+		font-size: 250px;
+	}
+}

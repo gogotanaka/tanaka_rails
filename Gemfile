@@ -23,3 +23,11 @@ group :production do
 end
 
 gem 'font-awesome-rails'
+
+# Hamlgem 'haml-rails'
+gem 'haml-rails'
+
+group :development do
+  # erbからhamlに変換
+  gem 'erb2haml'
+end

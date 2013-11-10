@@ -1,4 +1,16 @@
 Tanakakazuki::Application.routes.draw do
+  resources :programs
+
+
+  resources :pictures
+
+
+  resources :musics
+
+
+  resources :texts
+
+
   get "welcome/index"
 
   # The priority is based upon order of creation:

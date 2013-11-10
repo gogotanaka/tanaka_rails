@@ -12,3 +12,7 @@
  *= require_tree .
  *= require font-awesome
  */
+
+ .container {
+ 	margin: 50px auto;
+ }
